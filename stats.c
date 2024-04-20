@@ -120,14 +120,14 @@ void print_statistics(unsigned char array[], unsigned int size){
 
 }
 
-// bubble sort
+// reverse bubble sort
 void sort_array(unsigned char array[], unsigned int size){
   unsigned char bool = 1;
 
   while(bool != 0){
     bool = 0;
    for (int i=0; i<size - 1; i++){
-    if (array[i] > array[i+1]){
+    if (array[i] < array[i+1]){
       unsigned char temp = 0;
       temp = array[i];
       array[i] = array[i+1];
