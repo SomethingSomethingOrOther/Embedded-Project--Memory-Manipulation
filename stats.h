@@ -117,7 +117,7 @@ void sort_array(unsigned char array[],unsigned int size);
  * 
  * @return None
 */
-void print_statistics(unsigned char array[]);
+void print_statistics(unsigned char array[], unsigned int size);
 /**
  * @brief Given an array it prints the max, min, median, and mean of the array
  *
