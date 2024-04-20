@@ -10,7 +10,8 @@
  *****************************************************************************/
 /**
  * @file stats.c
- * @brief Contains the declarations and definitions of 
+ * @brief Contains the declarations and definitions of all functions using 
+ * in the project
  *
  * This file contains eight functions that help us find the statistics of an array
  * and perform other taskes like sorting the array and printing the return values 
